@@ -6,6 +6,7 @@ import Menu from './pages/Menu'
 import About from './pages/About'
 import Footer from './components/Footer'
 import Header from './components/Header'
+import Food from './components/Food'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path="/" element={<Food />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/menu' element={<Menu />} />
         <Route path='/about' element={<About />} />

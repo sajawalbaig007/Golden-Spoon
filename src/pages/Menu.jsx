@@ -125,7 +125,7 @@ function Menu() {
   };
 
   return (
-    <section className="w-full bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 py-16 px-6 relative">
+   <section className="w-full pt-[100px] md:pt-[120px] bg-gradient-to-r from-yellow-400 via-yellow-300 to-yellow-400 py-16 px-6 relative">
       <div className="max-w-6xl mx-auto">
 
         {/* Page Header */}
